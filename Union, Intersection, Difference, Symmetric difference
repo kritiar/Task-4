@@ -1,0 +1,17 @@
+E={2,7,4,0,5,8,1,6}
+N={2,6,3,0,7,9,1,4}
+F=E.union(N)
+print("Union: ")
+print(F)
+
+G=E.intersection(N)
+print("Intersection: ")
+print(G)
+
+H=E.difference(N)
+print("Difference: ")
+print(H)
+
+I=E.symmetric_difference(N)
+print("Symmertic difference: ")
+print(I)
